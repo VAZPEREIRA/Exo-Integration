@@ -1,0 +1,665 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body {
+    font-size: 14px;
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: block;
+  }
+} 
+
+
+/*******************  Pre-Menu ********************/
+
+
+.navbar-toggler
+{
+    border: 0!important;
+    outline: none!important;
+    padding: initial!important;
+}
+.navbar a
+{
+   color: white !important;
+    
+}
+
+ 
+
+.navbar-nav .colo
+{
+  color: white;
+}
+
+
+.header_area
+{
+  background:#342b4e ;
+  
+
+ 
+} 
+
+
+
+.nav-item .dropdown-item
+{
+  color: #000 !important;
+
+}
+
+.clock img
+{
+  width: 25px;
+  background-color: white;
+  border-radius: 13px;
+}
+
+.placeholder img
+{
+  width: 25px;
+  background-color: white;
+  border-radius: 13px;
+}
+
+ 
+
+/******************* Fin Pre-Menu ********************/
+
+
+
+/*******************  Menu ********************/
+
+.logo
+{
+    margin-left: 230px !important;
+}
+
+.navbar
+{
+    padding-top: 10px!important;
+    
+    
+}
+
+.nav-item
+{
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+}
+
+.nav-link
+{
+    color: white!important;
+    font-size: 12px!important;
+    padding: 0 0 5px 0!important;
+    display: unset;
+} 
+
+.navbar-nav a.active
+{
+  color: #0D65D2 !important;
+}
+
+.nav-link:hover
+{
+    border-bottom: 2px solid white;
+    
+}
+
+.navbar-brand img
+{
+    width: 115px;
+}
+
+
+
+.main-slide
+{
+  background-color: grey ;
+  color: white !important;
+}
+
+.main-slide::before
+{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  
+ 
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.main-slide
+{
+  position: relative;
+  
+  
+}
+
+.number
+{
+  margin-left: 150px !important;
+}
+
+.trait
+{
+  
+  border-bottom: 1px solid white !important;
+  border-radius: 2px !important;
+}
+
+/*******************  Fin Menu ********************/
+
+
+
+
+/*******************  Carousel ********************/
+
+.carousel-item
+{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  
+}
+.carousel-caption
+{
+  bottom: 200px !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.leg
+{
+ 
+  padding: 20px;
+  text-align: center;
+  border-left: 5px solid white;
+  color: white;
+  background: blue;
+  position: absolute;
+  margin: 225px;
+ 
+  margin-bottom: -142px !important;
+  bottom: 0;
+  
+
+}
+
+/*******************  Fin Carousel ********************/
+
+
+
+
+/*******************  Section ********************/
+
+
+.text-bloc .sous-titre
+{
+   color: blue !important;
+}
+.bloc
+{
+  margin-top: 50px;
+}
+
+.bloc-mission
+{
+
+
+  
+  background-color: blue !important;
+  color: white;
+ 
+  
+  position: relative;
+  
+  
+}
+
+.bloc-mission
+{
+  position: absolute;
+  
+ 
+  margin-left: -250px;
+  padding: 30px;
+  text-align: start;
+  border-left: 5px solid white;
+ 
+  
+  width: 350px;
+  
+  color: white;
+  left: 0;
+  right: -20px;
+  top: 100px;
+  bottom:30px !important;
+}
+
+.bloc-mission img{
+  width: 150px;
+  height: 40px !important;
+  border-radius: 30px;
+  
+}
+
+.image img
+{
+  margin-left: 70px;
+  width: 420px !important;
+} 
+
+.bande img
+{
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+ 
+}
+.bande 
+{
+  height: 80px;
+  background: blue;
+  color: white !important;
+  margin:0;
+}
+
+.bloc-bande
+{
+  display: flex;
+}
+
+.texte-hero img{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+} 
+
+/******************* Fin Section ********************/
+
+/******************* services ********************/
+.titre-services p
+{
+  color: blue !important;
+}
+
+
+.services-all
+{
+  background-color: #f4f5f7;
+  padding: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
+
+.un-service {
+  flex-basis: 33.33333%;
+  padding: 20px;  
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  background-color: white;
+  position: relative;
+ 
+
+}
+
+.trait-vertical
+{
+  width: 5px !important;
+  height: 30px !important;
+  background: blue !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.un-service .icone-service{
+   background-color: #adbdeb;
+   width: 60px;
+   height: 60px;
+   border-radius: 30px;
+  
+}
+.un-service .icone-service img {
+  height: 26px;
+  margin-top: 17px;
+  
+}
+
+.element
+{
+  width: 40px !important;
+  height: 40px !important;
+  background-color: blue;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  
+}
+.element .plus
+{
+  color: white !important;
+  font-size: 25px !important;
+}
+
+hr
+{
+  width: 25px;
+
+ border-bottom: 4px solid black !important;
+   border-radius: 2px !important;
+ /* margin-right: 900px !important; */
+}
+
+.myawards
+{
+  border-bottom: 4px solid black;
+  border-radius: 2px;
+  
+}
+
+.lastnews
+{
+  border-bottom: 4px solid black !important;
+  border-radius: 2px !important;
+  margin-right: 1080px !important;
+}
+
+.bloc-icon img
+{
+  background: blue;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  
+}
+.bloc-icon
+{
+  display: flex;
+ 
+}
+
+.bloc-icon h5
+{
+  font-size: 25px;
+}
+.bloc-icon p
+{
+  font-size: 10px;
+}
+
+
+
+/******************* Fin services ********************/
+
+
+/******************* Slide testimoles ********************/
+
+.slide2 p
+{
+  color: blue !important;
+}
+.seewhat
+{
+  margin-top: 40px;
+}
+
+.testimonials {
+  padding: 120px 0;
+  background-color: #f8f7ff;
+}
+.un-temoignage img {
+  height: 70px;
+  width: 70px !important;
+  border-radius: 70px;
+  margin: auto;
+  position: absolute;
+  z-index: 9;
+  top: 10px;
+  left: 50%;
+  margin-left: -35px;
+}
+.un-temoignage {
+  padding: 50px 25px 25px 25px;
+  margin-top: 50px !important;
+  background-color: #fff;
+}
+
+.un-temoignage a
+ {
+  background-color: blue !important;
+  color: white !important;
+  
+}
+
+
+
+
+.owl-item .un-temoignage {
+  margin: 40px 40px;
+}
+
+
+.owl-nav button.owl-prev, .owl-nav button.owl-next {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  bottom: 50%;
+  height: 20px;
+  margin-bottom: -10px;
+}
+.owl-nav button.owl-next {
+  right: 0;
+  left: initial !important;
+  background: url('../img/arrow.svg') no-repeat center center !important;
+
+}
+.owl-nav button.owl-prev {
+  background: url('../img/left-arrow.svg') no-repeat center center !important;
+}
+
+.want-to-see-tech {
+  padding: 120px 0;
+  background-color: #5f58af;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/******************* Fin Slide testimoles ********************/
+ 
+
+
+
+/**** Contact-Footer ****/
+.contact-box
+{
+  background: rgb(230, 7, 7) !important ;
+  display: flex;
+  
+}
+.contact-left
+{
+  flex-basis: 50%;
+  padding: 40px 60px;
+  background: #1c00b5;
+  color: white;
+}
+.contact-right
+{
+  flex-basis: 50%;
+  padding: 40px ;
+  background: lightgrey;
+  
+}
+.input-row
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h1
+{
+  margin-bottom: 10px;
+}
+.content p
+{
+  margin-bottom: 40px;
+}
+
+
+input
+{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  padding-bottom: 5px;
+  background: lightgrey;
+}
+
+.input-row .second
+{
+  border-bottom: 2px solid #636060 !important;
+}
+
+.input-row .input-group
+{
+  flex-basis: 45%;
+  background: lightgrey;
+}
+textarea
+{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-bottom: 5px;
+  background: lightgrey;
+  border-bottom:1px solid #000000 !important;
+  box-sizing: border-box;
+  
+
+}
+label
+{
+  margin-bottom: 6px;
+  display: block;
+
+}
+
+button
+{
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px !important;
+  margin-top: 20px;
+}
+
+.footer
+{
+  background-color: rgb(15, 13, 44);
+  color: white !important;
+}
+
+
+
+
+.bloc-footer img
+{
+  display: flex;
+  width: 55px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.bloc-footer 
+{
+  display: flex;
+  
+}
+
+
+.bloc-footer h5
+{
+  display: flex;
+  font-size: 15px;
+  
+}
+.input-group img
+{
+  width: 20px;
+  background: blue;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: -20px;
+  margin-left: 250px;
+}
+.newsletter
+{
+  position: absolute;
+}
+
+
+
+.social-media img
+{
+  width: 25px;
+  background-color: blue;
+  border-radius: 13px;
+}
+
+.traitfooter
+{
+  border-bottom: 1px solid gray !important;
+  border-radius: 2px !important;
+}
+
+
+/****  Fin Contact-Footer ****/
+
